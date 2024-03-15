@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "aws-sdk": "^2.1569.0",
+    "busboy": "^1.6.0",
+    "busboy-body-parser": "^0.3.2",
+    "connect-busboy": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "mongodb": "^6.4.0",
+    "mongoose": "^8.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.3",
+    "yarn": "^1.22.21"
+  },
+  "name": "sistemaagendamentoclinicaodontologica",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lgusta20/SistemaAgendamentoClinicaOdontologica.git"
+  },
+  "author": "Lgusta20 <gugavasco2016@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lgusta20/SistemaAgendamentoClinicaOdontologica/issues"
+  },
+  "homepage": "https://github.com/Lgusta20/SistemaAgendamentoClinicaOdontologica#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "description": ""
+}
