@@ -1,10 +1,12 @@
 require('dotenv').config()
 const express = require("express");
+const serverless = require('serverless-http');
 const app = express();
 const busboy  = require('busboy');
 const busboyBodyParser  = require('busboy-body-parser');
 const morgan = require("morgan");
 const cors = require("cors");
+const { route } = require('./src/routes/Clinica.routes');
 require('./src/models/database');
 
 
@@ -28,3 +30,5 @@ app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
     console.log(process.env);
 });
+
+module.exports.handler = serverless(app);
