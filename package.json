@@ -11,6 +11,7 @@
     "mongoose": "^8.2.0",
     "morgan": "^1.10.0",
     "nodemon": "^3.0.3",
+    "serverless-http": "^3.2.0",
     "yarn": "^1.22.21"
   },
   "name": "sistemaagendamentoclinicaodontologica",
